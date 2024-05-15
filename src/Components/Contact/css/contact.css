@@ -1,0 +1,99 @@
+.contact_top_section{
+    display: flex;
+    align-items: center;
+}
+
+.contact_main_div{
+    padding: 60px 150px;
+    color: white;
+}
+
+.contact_main_desc{
+    margin-left: auto;
+    width: 300px;
+    color: #9e9d9d;
+}
+
+.contact_main_heading{
+    font-size: 72px;
+    font-weight: 700;
+    width: 400px;
+}
+
+.contact_bottom_section{
+    display: flex;
+    gap: 15%;
+}
+
+.contact_bottom_content{
+    width: 350px;
+    margin-top: 20px;
+    line-height: normal;
+}
+
+.contact_bottom_form_main{
+    width: calc(100% - 350px);
+}
+
+.contact_bottom_form{
+    
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.contact_bottom_form>input{
+    width: 42%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    padding: 20px 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.contact_bottom_form>textarea{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 94%;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.contact_bottom_title{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.contact_bottom_info{
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.send_messages_circle{
+    height: 150px;
+    margin-top: 60px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.send_messages_circle>p{
+    width: 100px;
+    text-align: center;
+}
+
+.send_messages_circle:hover {
+    transform: scale(1.1);
+    background-color: black;
+    transition: transform 0.5s, background-color 3s; /* Add transition properties */
+}
