@@ -111,8 +111,8 @@ const Slider = () => {
             keyBoardControl={true}
             slidesToSlide={1}
         >
-            {bannerData.map((e) => {
-                return <Image src={e.url} alt="Banner" />;
+            {bannerData.map((e,i) => {
+                return <Image key={i} src={e.url} alt="Banner" />;
             })}
         </Carousel>
     );

@@ -14,7 +14,7 @@ const Clients = () => {
                 <div className="slider" style={{ width: '800px' }}>
                     <div style={{ width: '100%' }}>
                         <p className="main_slider_content">
-                        Trisanco Infotech surpassed all my expectations with their outstanding IT solutions. Their team's expertise, professionalism, and dedication were evident from day one. They provided innovative solutions that not only met but exceeded our business needs. Communication was seamless, and their commitment to customer satisfaction was truly commendable. I highly recommend Trisanco Infotech to anyone in need of top-notch IT services.
+                        Trisanco Infotech surpassed all my expectations with their outstanding IT solutions. Their team&apos;s expertise, professionalism, and dedication were evident from day one. They provided innovative solutions that not only met but exceeded our business needs. Communication was seamless, and their commitment to customer satisfaction was truly commendable. I highly recommend Trisanco Infotech to anyone in need of top-notch IT services.
                         </p>
                         <p className="client_name">
                             Abhishek Kumar
@@ -68,7 +68,7 @@ const Clients = () => {
                 </p>
                 <div className="client_companies_images">
                     {
-                        [0, 0, 0, 0, 0, 0, 0].map(() => <div style={{ height: '150px', width: '150px', display: 'flex', justifyContent: 'center', alignItems: 'center', border: '1px solid #e9e9e9', }}><img src='https://manasvitechnologies.org/assets/imgs/brand/vida.png' alt='' /></div>)
+                        [0, 0, 0, 0, 0, 0, 0].map((e,i) => <div key={i} style={{ height: '150px', width: '150px', display: 'flex', justifyContent: 'center', alignItems: 'center', border: '1px solid #e9e9e9', }}><img src='https://manasvitechnologies.org/assets/imgs/brand/vida.png' alt='' /></div>)
                     }
                 </div>
             </div>

@@ -1,0 +1,15 @@
+.comingsoon_main{
+    height: 100vh;
+    width: calc(100vw - 69px);
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    font-size: 46px;
+    font-weight: 600;
+    z-index: 2;
+    margin-left: 69px;
+}

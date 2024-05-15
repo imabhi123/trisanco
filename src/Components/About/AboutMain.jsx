@@ -30,7 +30,7 @@ const AboutMain = () => {
                     </div>
                     <div className="about_bottom_sections">
                         <p className="about_bottom_section_title">OUR GOALS</p>
-                        <p className="about_bottom_section_desc">Guided by a mission to revolutionize business strategies, our goals are crystal clear: to deliver unparalleled solutions that empower your organization's growth, streamline operations, foster enduring partnerships, and secure sustained success.
+                        <p className="about_bottom_section_desc">Guided by a mission to revolutionize business strategies, our goals are crystal clear: to deliver unparalleled solutions that empower your organization&apos;s growth, streamline operations, foster enduring partnerships, and secure sustained success.
                         </p>
                     </div>
                     <div className="about_bottom_sections">

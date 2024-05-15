@@ -1,6 +1,8 @@
 'use client'
 
+import ComingSoon from "@/Components/ComingSoon/ComingSoon";
 import Cursor from "@/Components/GSAP/Cursor";
+import Achievements from "@/Components/Home/Achievements";
 import Clients from "@/Components/Home/Clients";
 import Focus from "@/Components/Home/Focus";
 import HorizontalSlider from "@/Components/Home/HorizontalSlider";
@@ -27,8 +29,10 @@ export default function Home() {
       <Marquee/>
       <Focus/>
       <HorizontalSlider/>
-      <Clients/>
-      <Journal/>  
+      {/* <Clients/> */}
+      <ComingSoon text='Clients'/>
+      <Journal/>
+      <Achievements/>  
     </div>
   );
 }

@@ -5,6 +5,7 @@ import '../Contact/css/contact.css'
 import Slider from '../GSAP/Slider'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 const PortFolio = () => {
     return (
@@ -25,9 +26,9 @@ const PortFolio = () => {
                 <p className="portfolio_bottom_heading">We would love to hear more
                     about your project</p>
                 <div className="send_messages_circle">
-                    <p className="send_messages">
+                    <Link style={{textDecoration:'none',color:'white'}} href={'/contact'} className="send_messages">
                         Let's Talk Us<FontAwesomeIcon icon={faArrowRight} style={{ transform: 'rotate(-45deg)', height: '18px' }} />
-                    </p>
+                    </Link>
                 </div>
             </div>
         </div>
