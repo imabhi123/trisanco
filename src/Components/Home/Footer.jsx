@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="main_footer_component_first_part_top" style={{ paddingBottom: '80px' }}>
                     <div style={{ flex: '1.5' }}>
                         <Link href={'/'} style={{fontSize:'46px',textDecoration:'none' , fontWeight:'700',color:'white',margin:'0'}}>Trisanco</Link>
-                        <p className="footer_text_small">At Trisanco Infotech, we don't just build software; we build relationships, trust, and success stories. Let us be your partner in innovation and transformation.
+                        <p className="footer_text_small">At Trisanco Infotech, we don&apos;t just build software; we build relationships, trust, and success stories. Let us be your partner in innovation and transformation.
 </p>
                     </div>
                     <div style={{ position: 'relative', bottom: '20px' }}>

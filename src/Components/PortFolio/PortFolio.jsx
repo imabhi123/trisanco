@@ -16,7 +16,7 @@ const PortFolio = () => {
                     <p className="portfolio_heading">Work</p>
                     <div style={{ display: 'flex', alignItems: 'flex-start', width: '400px', gap: '20px' }}>
                         <div style={{ width: '50%', height: '1px', background: 'white' }}></div>
-                        <p className="portfolio_desc">Experience our portfolio of exceptional work - see the impact we've made for our clients.</p>
+                        <p className="portfolio_desc">Experience our portfolio of exceptional work - see the impact we&apos;ve made for our clients.</p>
                     </div>
                 </div>
                 <Slider />
@@ -27,7 +27,7 @@ const PortFolio = () => {
                     about your project</p>
                 <div className="send_messages_circle">
                     <Link style={{textDecoration:'none',color:'white'}} href={'/contact'} className="send_messages">
-                        Let's Talk Us<FontAwesomeIcon icon={faArrowRight} style={{ transform: 'rotate(-45deg)', height: '18px' }} />
+                        Let&apos;s Talk Us<FontAwesomeIcon icon={faArrowRight} style={{ transform: 'rotate(-45deg)', height: '18px' }} />
                     </Link>
                 </div>
             </div>

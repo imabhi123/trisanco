@@ -33,12 +33,12 @@ const HSComponent2 = () => {
   return (
     <div className='scrollbar_second'>
       <p className="scrollbar_second_title">
-        SOLUTION'S
+        SOLUTION&apos;S
         WE PROVIDE
       </p>
       <div className="scrollbar_second_inner_div">
         <div style={{ width: '40%', marginTop: '40px', display: 'flex', flexDirection: 'column', gap: '5px' }}>
-          {services.map((e) => <QuestionCard content={e} />
+          {services.map((e,i) => <QuestionCard content={i} />
           )}
         </div>
         <div className="scrollbar_second_img">

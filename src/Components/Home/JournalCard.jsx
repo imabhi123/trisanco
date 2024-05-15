@@ -37,7 +37,7 @@ const JournalCard = () => {
                 <img src="https://manasvitechnologies.org/assets/imgs/blog/1i.png" className='' alt="" />
             </div>
             <p className="journalcard_desc">Website Development . 28 feb 2023</p>
-            <p className="journalcard_caption">Web Design vs. Web Development: What's the Difference and Why It Matters?</p>
+            <p className="journalcard_caption">Web Design vs. Web Development: What&apos;s the Difference and Why It Matters?</p>
         </div>
     );
 };

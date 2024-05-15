@@ -19,7 +19,7 @@ const Journal = () => {
             </div>
             <div className="all_journals">
                 {
-                    [0,0,0].map(()=><JournalCard/>)
+                    [0,0,0].map((e,i)=><JournalCard key={i}/>)
                 }
             </div>
         </div>
