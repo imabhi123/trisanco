@@ -38,7 +38,7 @@ const HSComponent2 = () => {
       </p>
       <div className="scrollbar_second_inner_div">
         <div style={{ width: '40%', marginTop: '40px', display: 'flex', flexDirection: 'column', gap: '5px' }}>
-          {services.map((e,i) => <QuestionCard content={i} />
+          {services.map((e,i) => <QuestionCard content={e} key={i} />
           )}
         </div>
         <div className="scrollbar_second_img">
